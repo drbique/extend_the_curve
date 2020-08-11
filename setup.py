@@ -16,21 +16,23 @@ setuptools.setup(
 
      author_email="stephenbique@us.af.mil",
 
-     description="A module to extend a curve locally",
+     description="A module that provides a function to extend a curve locally",
 
      long_description=long_description,
 
-   long_description_content_type="text/markdown",
+     long_description_content_type="text/markdown",
 
      url="https://github.com/drbique/extend_the_curve",
 
-     packages=setuptools.find_packages(),
-
+     packages=['extend_the_curve'],
+     
+     install_requires=['numpy','sklearn','scipy','re'],
+     
      classifiers=[
 
          "Programming Language :: Python :: 3",
 
-         "License :: OSI Approved :: AFLCMC/HNII License",
+         "AFLCMC/HNII License",
 
          "Operating System :: OS Independent",
 

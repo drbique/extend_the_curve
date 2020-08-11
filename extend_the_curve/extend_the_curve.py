@@ -1,6 +1,5 @@
-#!/usr/bin/env python
 '''
- Filename: extend_the_curve
+ Filename: extend_the_curve.py
  Purpose: Provide the functionality of extend_the_curve() as follows:
 
  Inputs:

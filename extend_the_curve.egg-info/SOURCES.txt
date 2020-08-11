@@ -1,7 +1,0 @@
-README.md
-extend_the_curve
-setup.py
-extend_the_curve.egg-info/PKG-INFO
-extend_the_curve.egg-info/SOURCES.txt
-extend_the_curve.egg-info/dependency_links.txt
-extend_the_curve.egg-info/top_level.txt
