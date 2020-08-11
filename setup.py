@@ -22,7 +22,7 @@ setuptools.setup(
 
      url="https://github.com/drbique/extend_the_curve",
 
-     packages=['extend_the_curve'],
+     packages=['extend_the_curve','extend_the_curve.extend_the_curve'],
          
      install_requires=['numpy','sklearn','scipy'],
      
