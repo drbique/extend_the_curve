@@ -8,11 +8,9 @@ setuptools.setup(
 
      name='extend_the_curve',  
 
-     version='1.0',
+     version='0.1',
 
-     scripts=['extend_the_curve'] ,
-
-     author="Stephen Bique",
+     author="Dr. Stephen Bique",
 
      author_email="stephenbique@us.af.mil",
 
