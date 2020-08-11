@@ -26,7 +26,7 @@ setuptools.setup(
 
      packages=['extend_the_curve'],
      
-     install_requires=['numpy','sklearn','scipy','re'],
+     install_requires=['numpy','sklearn','scipy'],
      
      classifiers=[
 
