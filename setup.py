@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 
-     name='extend-the-curve',  
+     name='curveextension',  
 
      version='0.1',
 
