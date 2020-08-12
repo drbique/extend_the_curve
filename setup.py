@@ -23,9 +23,7 @@ setuptools.setup(
      url="https://github.com/drbique/extend_the_curve",
 
      packages=['lsextend'],
-         
-     scripts=['lsextend/lsextend.py'],
-      
+             
      install_requires=['numpy','sklearn','scipy'],
      
      classifiers=[
