@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 
-     name='lsextend',  
+     name='LSextend',  
 
      version='0.1',
 
