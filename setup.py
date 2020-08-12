@@ -24,11 +24,11 @@ setuptools.setup(
 
      packages=setuptools.find_packages(),
          
-     install_requires=['numpy','sklearn','scipy','re'],
+     install_requires=['numpy','sklearn','scipy'],
      
      classifiers=[
 
-         "Programming Language :: Python :: 3",
+         "Programming Language :: Python",
 
          "AFLCMC/HNII License",
 
