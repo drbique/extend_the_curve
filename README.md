@@ -1,6 +1,6 @@
-# extend_the_curve
+# lsextend
 
- Filename: extend_the_curve.py 
+ Filename: lsextend.py 
  Purpose: Provide the functionality of extend_the_curve() as follows:
 
  Inputs:

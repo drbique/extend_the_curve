@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 
-     name='extend_the_curve',  
+     name='lsextend',  
 
      version='0.1',
 
@@ -14,7 +14,7 @@ setuptools.setup(
 
      author_email="stephenbique@us.af.mil",
 
-     description="A module that provides a function to extend a curve locally",
+     description="A module that provides a function extend_the_curve() to extend a curve locally",
 
      long_description=long_description,
 
