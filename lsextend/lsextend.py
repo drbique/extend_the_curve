@@ -1,6 +1,6 @@
 '''
  Filename: lsextend.py
- Purpose: Provide the functionality of extend_the_curve() as follows:
+ Purpose: Provide the functionality of lsextend() as follows:
 
  Inputs:
     y                          data (dependent variable)
@@ -93,7 +93,7 @@ official policies, either expressed or implied, of AFLCMC/HNII.
 '''
 
 
-def extend_the_curve(y, desired_forecast_periods=14, interval=0.0, origin=0.0, returns="line", epsilon = 0.0000005):
+def lsextend(y, desired_forecast_periods=14, interval=0.0, origin=0.0, returns="line", epsilon = 0.0000005):
     import numpy as np
     from sklearn.linear_model import LinearRegression
     from scipy import stats
@@ -328,7 +328,7 @@ def extend_the_curve(y, desired_forecast_periods=14, interval=0.0, origin=0.0, r
             returns = re.sub(r'[^a-z\d ]','',returns.lower())
             if ("length" in returns) or ("flag" in returns):
                 # Return additional values (m and flag), mainly for testing purposes.
-                # To ignore extra values, use slope,intercept,_,_ = extend_the_curve(y)
+                # To ignore extra values, use slope,intercept,_,_ = lsextend(y)
 
                 # Check m by recalculating using given data and computed line
                 rsum = 0.0

@@ -14,7 +14,7 @@ setuptools.setup(
 
      author_email="stephenbique@us.af.mil",
 
-     description="A module that provides a function extend_the_curve() to extend a curve locally",
+     description="A module that provides a function lsextend() to extend a curve locally using weighted general least squares (WGLS)",
 
      long_description=long_description,
 
