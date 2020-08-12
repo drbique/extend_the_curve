@@ -24,7 +24,7 @@ setuptools.setup(
 
      packages=setuptools.find_packages(),
          
-     install_requires=['numpy','sklearn','scipy'],
+     install_requires=['numpy','sklearn','scipy','re'],
      
      classifiers=[
 
