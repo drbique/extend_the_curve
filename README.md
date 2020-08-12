@@ -1,7 +1,7 @@
 # lsextend
 
  Filename: lsextend.py 
- Purpose: Provide the functionality of extend_the_curve() as follows:
+ Purpose: Provide the functionality of lsextend() as follows:
 
  Inputs:
     y                          data (dependent variable)

@@ -24,6 +24,8 @@ setuptools.setup(
 
      packages=['lsextend'],
          
+     scripts=['lsextend/lsextend.py'],
+      
      install_requires=['numpy','sklearn','scipy'],
      
      classifiers=[
