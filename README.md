@@ -1,4 +1,4 @@
-# Package lsextend 
+# Package ExtendTheCurve
 
  Filename: extend_the_curve.py 
  Purpose: Provide the functionality of extend_the_curve() as follows:
