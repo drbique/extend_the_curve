@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 
-     name='LSextend',  
+     name='ExtendTheCurve',  
 
      version='0.1',
 
@@ -22,7 +22,7 @@ setuptools.setup(
 
      url="https://github.com/drbique/extend_the_curve",
 
-     packages=['lsextend'],
+     packages=['extend_the_curve'],
              
      install_requires=['numpy','sklearn','scipy'],
      
